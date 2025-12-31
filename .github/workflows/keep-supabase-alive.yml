@@ -12,5 +12,5 @@ jobs:
       - name: Ping Supabase
         run: |
           curl -f https://euwmjhuewnjymhzbedkh.supabase.co/rest/v1/notpause \
-          -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
-          -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
+          -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1d21qaHVld25qeW1oemJlZGtoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU2NDY1NDksImV4cCI6MjA3MTIyMjU0OX0.j2tY1NcsPiZXZLQhhyBZtbAefVqdqzX9rbF_KhI3cXA" \
+          -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1d21qaHVld25qeW1oemJlZGtoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU2NDY1NDksImV4cCI6MjA3MTIyMjU0OX0.j2tY1NcsPiZXZLQhhyBZtbAefVqdqzX9rbF_KhI3cXA"
